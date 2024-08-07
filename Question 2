@@ -1,0 +1,8 @@
+students={'Alice': 21, 'Bob': 22, 'David': 23, 'Eve': 19, 'Frank': 24}
+specific_student='Alice'
+print(f"The Age of {specific_student} is:{students[specific_student]}") 
+new_student_name = 'Frank'
+new_student_age = 24
+students[new_student_name] = new_student_age
+print("Updated dictionary:")
+print(students)
